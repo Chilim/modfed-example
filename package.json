@@ -1,0 +1,13 @@
+{
+  "name": "module-federation",
+  "version": "1.0.0",
+  "description": "a test app",
+  "scripts": {
+    "host-app": "npm start --prefix host-app",
+    "fragment-app": "npm start --prefix fragment-app",
+    "start": "concurrently \"npm run host-app\" \"npm run fragment-app\""
+  },
+  "devDependencies": {
+    "concurrently": "^5.3.0"
+  }
+}

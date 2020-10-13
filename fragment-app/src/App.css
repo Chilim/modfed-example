@@ -1,0 +1,63 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.app {
+  background-color: darkcyan;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  position: relative;
+  background-color: tomato;
+  height: 100%;
+  width: 100%;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.resizer {
+  font-size: 3rem;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  cursor: pointer;
+}
+
+.resizer:active {
+  font-size: 2.9rem;
+}
+
+.count {
+  color: white;
+  text-decoration-color: aqua;
+  text-decoration: underline;
+  font-size: 5.5rem;
+}
+
+.btn-group {
+  display: flex;
+}
+
+.btn {
+  padding: 8px 5px;
+  border-radius: 5px;
+  color: rgb(39, 36, 36);
+}
+
+.btn-blue {
+  background-color: dodgerblue;
+  margin-right: 5px;
+}
+
+.btn-green {
+  background-color: darkseagreen;
+  margin-left: 5px;
+}
